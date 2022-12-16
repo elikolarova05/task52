@@ -10,6 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+    <article class="message">sample</article>
+    <article class="message">sample</article>
+    <article class="message">sample</article>
+    <article class="message">sample</article>
+    <article class="message">sample</article>
+    <script>
+           document.querySelector('body').insertAdjacentHTML('beforeend','<article></article>');
+          $("#elm1").html('<article></article>'); 
+          $("#elm1").on('click',function(){
+        alert("hi");   
+        }); 
+     </script>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
